@@ -34,11 +34,11 @@ jupyter notebook motor_insurance_pricing.ipynb
 | Poisson + constant severity | €171.37 | +13.30% |
 | Direct Tweedie | €167.45 | +10.70% |
 
-Poisson + Gamma came closest to the observed portfolio cost, while Poisson + constant severity had the lowest policy-level Tweedie deviance. The Poisson model overpredicted total test claims by 1.59%. Observed frequency rose from 3.52 to 18.57 claims per 100 policy-years across the predicted frequency deciles.
-
+- Poisson + Gamma came closest to the observed portfolio cost, while Poisson + constant severity had the lowest policy-level Tweedie deviance.
 - Predicted claim count was within +1.59% of observed.
 - Observed frequency rose from 3.5 to 18.6 claims per 100 policy-years across predicted risk deciles.
 - The Gamma severity model did not beat a constant-severity baseline on claim-level Gamma deviance.
+
 
 ## Limitations
 - Single random train/test split; the Tweedie comparison was added after viewing test results.
