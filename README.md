@@ -48,4 +48,4 @@ Poisson + Gamma came closest to the observed portfolio cost, while Poisson + con
 - No demand or price-elasticity modelling.
 
 ## Possible improvements
-Cross-validation, large-loss capping, tariff relativities, gradient boosting benchmark, out-of-time validation.
+Cross-validation, sensitivity analysis for large losses, tariff relativities, gradient boosting benchmark, out-of-time validation.
